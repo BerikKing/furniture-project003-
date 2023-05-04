@@ -1,0 +1,29 @@
+.main {
+    min-height: 719px;
+    background: #f2efe9;
+    display: flex;
+    &_wrapper {
+        margin: 198px 0 0 40px;
+        &_title {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 150%;
+            color: #323232;
+            margin: 0 0px 17px 0; 
+        }
+        &_nameSite {
+            font-family: 'Tenor Sans';
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 120%;
+            color: #57463A;
+        }
+        &_descr {
+            margin-top: 40px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            color: #323232
+        }
+    }
+}

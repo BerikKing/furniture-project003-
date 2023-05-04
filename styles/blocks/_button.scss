@@ -1,0 +1,21 @@
+.btn {
+    margin-top: 70px;  
+    width: 245px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background: #A1B29F;
+    border: none;
+    &_master {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: #4C6D77;
+        width: 328px;
+        height: 60px;
+        background: #F6F6F6;
+        border: none;
+    }
+}
