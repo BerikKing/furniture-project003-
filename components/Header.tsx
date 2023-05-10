@@ -11,11 +11,11 @@ const Header = () => {
                 <div className="container">
                     <nav>
                         <ul>
-                            <li><a href="/master">Мастер-классы</a></li>
-                            <li><a href="/">Мебель на заказ</a></li>
-                            <a href="/"><img src="../img/logo.png" alt="logo" /></a>
-                            <li><a href="/">Контакты</a></li>
-                            <li><a href="/">O нас</a></li>
+                            <li><Link href="/master">Мастер-классы</Link></li>
+                            <li><Link href="/">Мебель на заказ</Link></li>
+                            <Link href="/"><img src="/img/logo.png" alt="logo" /></Link>
+                            <li><Link href="/">Контакты</Link></li>
+                            <li><Link href="/">O нас</Link></li>
                         </ul>
                     </nav>
                 </div>
